@@ -1,0 +1,40 @@
+:root {
+    --background-image-height:100vh;
+    --background-image-width:32vw;
+}
+
+.imageContainer {
+    position: relative;
+    margin-left: 8vw;
+    height: var(--background-image-height);
+    width: var(--background-image-width);
+    border: 1px solid black;
+}
+
+.imageContainer .background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imageContainer > div {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30vh;
+    height: 20vh;
+    width: var(--background-image-width);
+    background-color: hsla(0, 0%, 0%, 0.513);
+}
+
+.imageContainer  p {
+    color: white;
+    
+}
+
+.logo {
+    margin-right: 20px;
+    position: relative;
+    height:15vh;
+}
