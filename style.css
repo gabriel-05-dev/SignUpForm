@@ -88,7 +88,7 @@ h1, p, label, h3, h2, h1, button {
 }
 
 .imageContainer .background {
-    filter:blur(1px);
+    filter: brightness(50%);
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -100,14 +100,14 @@ div.logoContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 30vh;
+    top: 39.5vh;
     height: 14vh;
     width: var(--background-image-width);
-    background-color: hsla(0, 0%, 0%, 0.8);
+    background-color: hsla(0, 0%, 0%, 0.4);
 }
 
 .imageContainer  h1 {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 2.5vw;
 }
 
@@ -121,10 +121,11 @@ div.sloganContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 45vh;
+    top: 55vh;
     height: 4vh;
     width: calc(var(--background-image-width) - 10vh);
-    background-color: hsla(0, 0%, 0%, 0.5);
+    background-color: hsla(0, 0%, 0%, 0.4);
+    border-radius: 4px;
 }
 
 div.sloganContainer > p {
@@ -179,7 +180,7 @@ div.info p {
     font-size: 1.2vw;
 }
 
-.TopInformation > div.div1 {
+.TopInformation > form > div.div1 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -201,6 +202,7 @@ div.info p {
     font-family: var(--main-font);
     font-weight: bold;
     font-size: 0.8vw;
+    margin-bottom: 10px;
 }
 
 .group1 > input:hover {
