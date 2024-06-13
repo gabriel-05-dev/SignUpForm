@@ -202,7 +202,7 @@ div.info p {
     font-family: var(--main-font);
     font-weight: bold;
     font-size: 0.8vw;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
 }
 
 .group1 > input:hover {
