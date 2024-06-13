@@ -225,7 +225,7 @@ div.info p {
     width: 60vw;
 }
 
-.div2 > button {
+form > button {
     background-color: white;
     border-radius: 4px;
     font-size: 0.8vw;
