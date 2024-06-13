@@ -187,8 +187,12 @@ div.info p {
     gap: 15px;
     background-color: white;
     height: 25vh;
-    width: 60vw;
+    width: 45vw;
+    margin-left: 50px;
+    margin-right: 15vw;
+    overflow: scroll;
     border: 1px solid black;
+    border-radius: 2px;
 }
 
 .group1 {
@@ -237,4 +241,13 @@ form > button {
     font-size: 0.9vw;
     height: 5.5vh;
     width: 16.4vw;
+}
+
+.link {
+    color: grey;
+}
+
+
+.link:visited {
+    color: purple;
 }
