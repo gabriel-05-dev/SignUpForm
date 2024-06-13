@@ -112,9 +112,8 @@ div.logoContainer {
 }
 
 .logo {
-    position: relative;
-    height:10vh;
-    width: auto;
+    height:auto;
+    width: 5vw;
 }
 
 div.sloganContainer {
@@ -176,7 +175,7 @@ div.info > h1 {
     font-size: 2.50vw;
 }
 
-div.info > p {
+div.info p {
     font-size: 1.2vw;
 }
 
@@ -203,9 +202,11 @@ div.info > p {
     font-weight: bold;
     font-size: 0.8vw;
 }
-.group1 > input {
-    width: 150px;
+
+.group1 > input:hover {
+    background-color: rgba(122, 122, 122, 0.2)
 }
+
 
 .group1 input {
     width: 250px;
@@ -223,7 +224,15 @@ div.info > p {
 }
 
 .div2 > button {
+    background-color: white;
+    border-radius: 4px;
     font-size: 0.8vw;
     height: 5vh;
     width: 16vw;
+}
+
+.div2 > button:hover {
+    font-size: 0.9vw;
+    height: 5.5vh;
+    width: 16.4vw;
 }
