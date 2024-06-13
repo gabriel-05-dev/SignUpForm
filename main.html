@@ -27,33 +27,35 @@
                 <p>Bring order to the <em>EMPIRE!</em></p>
                 <p>Sign up below to start your application.</p>
             </div>
-            <form method="post">
+            <form action="https://httpbin.org/post" id="form" method="post">
                 <div class="div1">
                         <div class="group1">
-                            <label for="FirstName">FIRST NAME</label>
-                            <input type="text" required></input>
+                            <label for="first_name">FIRST NAME</label>
+                            <input name="first_name" type="text" id="first_name" required></input>
                             <br>
-                            <label for="email">EMAIL</label>
-                            <input type="text" required></input>
+                            <label for="email_addr">EMAIL</label>
+                            <input name="email_addr" ="email" id="email_addr" required></input>
                             <br>
-                            <label for="password">PASSWORD</label>
-                            <input type="password" required></input>
+                            <label for="passwd">PASSWORD</label>
+                            <input name="passwd" type="password" id="passwd" required></input>
                         </div>
                             <br>
                         <div class="group1">
-                            <label for="LastName">LAST NAME</label>
-                            <input type="tel" required></input>
+                            <label for="last_name">LAST NAME</label>
+                            <input name="last_name" type="text" id="last_name" required></input>
                             <br>
-                            <label for="phone">PHONE</label>
-                            <input type="tel" required></input>
+                            <label for="tel_no">PHONE</label>
+                            <input name="tel" type="tel" id="tel_no" required></input>
                             <br>
-                            <label for="passwordConfirm">CONFIRM PASSWORD</label>
-                            <input type="passwordConfirm"></input>
+                            <label for="conf_psswd">CONFIRM PASSWORD</label>
+                            <input name="passwd" type="password" id="conf_psswd" required></input>
                         </div>
                 </div>
             </form>
             <div class="div2">
-                <button>Join the empire!</button>
+                <form>
+                    <button form="form" type="submit">Join the empire!</button>
+                </form>
                 <p>Already have an account? <a href="https://google.com">Login.</a></p>
             </div>
         </div>
